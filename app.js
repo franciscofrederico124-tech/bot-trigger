@@ -61,6 +61,9 @@ app.post("/system/chat", async (req, res) => {
     }
 })
 
+app.get("/system/check", (req, res) => {
+  res.send("Aplicação On... ")
+})
 
 app.get("/", (req, res) => {
 
