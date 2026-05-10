@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Bot Trigger </title>
+
+  <link rel="stylesheet" href="./css/home.css" />
+</head>
+<body>
+
+  <main class="chat-app">
+
+    <header class="top-bar">
+      <div>
+        <h1> Bot Trigger✦</h1>
+        <p>Assistente IA da Tech Trigger</p>
+      </div>
+
+      <button class="history-btn" onclick="location.href='/chat'">
+        ⟳
+      </button>
+    </header>
+
+
+    <section id="chatContainer" class="chat-container">
+
+      <div class="message bot">
+        <div class="bubble">
+          <p>Olá 👋</p>
+          <p>Sou o Trigger Bot, assistente IA da Tech Trigger.</p>
+        
+        </div>
+      </div>
+
+    </section>
+
+
+    <section class="quick-actions">
+      <button class="quick-btn">Serviços</button>
+      <button class="quick-btn">Suporte</button>
+      <button class="quick-btn">Planos</button>
+      <button class="quick-btn">Sobre</button>
+    </section>
+
+
+    <form id="chatForm" class="input-area">
+
+
+      <input
+        type="text"
+        id="messageInput"
+        placeholder="Digite sua mensagem..."
+        autocomplete="off"
+        required
+      />
+
+      <button type="submit" class="send-btn">
+        ➤
+      </button>
+
+    </form>
+
+  </main>
+
+  <script src="./js/home.js"></script>
+</body>
+</html>
